@@ -1,0 +1,47 @@
+{
+  "basemapGallery": {
+    "mode": 2,
+    "basemaps": [
+      {
+        "title": "MapaBaseDiaPlanApp",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/base64Img__31_1_1649411515821.png",
+        "layers": [
+          {
+            "id": "VectorTile_6517",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "MapaDia_PlanApp",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/f532a5dd95054382b8a2288e79c54068/resources/styles/root.json",
+            "itemId": "f532a5dd95054382b8a2288e79c54068",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "title": "MapaBaseNochePlanApp",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/base64Img__31_2_1649411515822.png",
+        "layers": [
+          {
+            "id": "VectorTile_1590",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Noche_PlanApp",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/88b062478cab4205ad77815050998260/resources/styles/root.json",
+            "itemId": "88b062478cab4205ad77815050998260",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      }
+    ]
+  }
+}
